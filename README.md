@@ -26,21 +26,41 @@ The graph clearly shows the qualitative distributions of the data, now if the mo
 
 1.The bike demand is almost constant throughout the week. there seems no trend in the weekday dataset thus we can leave this variable for the prediction.
 
-2.The count of total users is in between 4000 to 6000 (~5500) during clear weather
+2.There are no users when there is heavy rain/ snow indicating that this weather is quite adverse. Highest count was seen when the weather situation was Clear, Partly Cloudy.
 
-3.The count of users is less during the holidays
+3.The count of users decreased during the holidays.
 
 4.From the "Workingday" boxplot we can see that maximum bookings happening between 4000 and 6000. There is not much of difference in booking whether its working day or not.
 
+5.The number of rentals peaked in September, whereas they peaked in December. This observation is consistent with the observations made regarding the weather. As a result of the typical substantial snowfall in December, rentals may have declined.
 
-# Recommendation
+### Calculating the r-squared
 
-1.The months - Jan , Jul , Sep , Nov , Dec should be considered by the company as they have a higher demand as compared to other months.
+r2_score of train dataset 0.821846912469421
 
-2.There would be less bookings during Bad and no demand in Severe weather conditions.
+r2_score of test dataset 0.8033098399800022
 
-3.There is no much demand during the holidays
+### Key points from the the above model, BoomBikes should focus while going ahead with expansion plans:
 
-4.With an increase in temperature the demand also increases, hence it should keep track of the weather conditions.
+1. Company should focus on expanding business during Fall, Summer and Winter
+   
+2. September month has shown great demand.
+   
+3. It has been observed that the demand for bike rentals had gone up from 2018 to 2019. So we can say that it will go up once the situation gets normal post Covid
+   
+4. There would be less bookings during Bad and no demand in Severe weather conditions.
+   
+5. There is no much demand during the holidays
 
-5.During the Winter season the demand rises, hence it should be well prepared to meet the high demand
+### Significant variables to predict the demand for shared bikes
+
+    holiday,
+    temp,
+    windspeed,
+    Season - (Summer, Spring and Winter),
+    months(July, September),
+    Year,
+    weathersit (Bad and Moderate).
+
+   
+
