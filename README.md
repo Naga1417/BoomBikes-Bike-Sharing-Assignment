@@ -20,6 +20,8 @@ A US bike-sharing provider BoomBikes has recently suffered considerable dips in 
 You are required to model the demand for shared bikes with the available independent variables. It will be used by the management to understand how exactly the demands vary with different features. They can accordingly manipulate the business strategy to meet the demand levels and meet the customer's expectations. Further, the model will be a good way for management to understand the demand dynamics of a new market.
 
 
+![Untitled](https://github.com/Naga1417/BoomBikes-Bike-Sharing-Assignment/assets/135252572/fe72468b-ccfd-4e92-879c-7f5c9d476f57)
+
 1.The graph clearly shows the qualitative distributions of the data, now if the model suggests the important predictors, using these graphs we can be more confident about the predictions of the model.
 
 2.For the variable season, we can clearly see that the category 3 : Fall, has the highest median, which shows that the demand was high during this season. It is least for 1: spring .
