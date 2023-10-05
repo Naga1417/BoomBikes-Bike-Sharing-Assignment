@@ -36,9 +36,9 @@ The graph clearly shows the qualitative distributions of the data, now if the mo
 
 ### Calculating the r-squared
 
-r2_score of train dataset 0.821846912469421
+r2_score of train dataset 0.7772797774485646
 
-r2_score of test dataset 0.8033098399800022
+r2_score of test dataset 0.7321929614923082
 
 ## Conclusion
 
