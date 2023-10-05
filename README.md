@@ -40,6 +40,14 @@ r2_score of train dataset 0.821846912469421
 
 r2_score of test dataset 0.8033098399800022
 
+## Conclusion
+
+1.From R-Sqaured and adj R-Sqaured value of both train and test dataset we could conclude that the above variables can well explain more than 82% of bike demand.
+
+2.Co-efficients of the variables explains the factors effecting the bike demand
+
+
+
 ### Key points from the the above model, BoomBikes should focus while going ahead with expansion plans:
 
 1. Company should focus on expanding business during Fall, Summer and Winter
