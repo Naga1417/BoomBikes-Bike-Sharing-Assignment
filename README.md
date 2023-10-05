@@ -22,23 +22,15 @@ You are required to model the demand for shared bikes with the available indepen
 
 ![Untitled](https://github.com/Naga1417/BoomBikes-Bike-Sharing-Assignment/assets/135252572/fe72468b-ccfd-4e92-879c-7f5c9d476f57)
 
-1.The graph clearly shows the qualitative distributions of the data, now if the model suggests the important predictors, using these graphs we can be more confident about the predictions of the model.
+The graph clearly shows the qualitative distributions of the data, now if the model suggests the important predictors, using these graphs we can be more confident about the predictions of the model.
 
-2.For the variable season, we can clearly see that the category 3 : Fall, has the highest median, which shows that the demand was high during this season. It is least for 1: spring .
+1.The bike demand is almost constant throughout the week. there seems no trend in the weekday dataset thus we can leave this variable for the prediction.
 
-3.The year 2019 had a higher count of users as compared to the year 2018
+2.The count of total users is in between 4000 to 6000 (~5500) during clear weather
 
-4.The bike demand is almost constant throughout the week. there seems no trend in the weekday dataset thus we can leave this variable for the prediction.
+3.The count of users is less during the holidays
 
-5.The count of total users is in between 4000 to 6000 (~5500) during clear weather
-
-6.From the "Mnth" boxplot we can see that the months are following a trend and could be a good predictor variable. The bookings in the mid-month are above 4000.
-
-7.The count is highest in the month of October
-
-8.The count of users is less during the holidays
-
-9.From the "Workingday" boxplot we can see that maximum bookings happening between 4000 and 6000. There is not much of difference in booking whether its working day or not.
+4.From the "Workingday" boxplot we can see that maximum bookings happening between 4000 and 6000. There is not much of difference in booking whether its working day or not.
 
 
 # Recommendation
